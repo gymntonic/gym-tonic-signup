@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gym & Tonic | Private Coaching Application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #2d2633, #4b4254);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 50px 40px;
+      border-radius: 16px;
+      width: 92%;
+      max-width: 460px;
+      text-align: center;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+    }
+
+    .logo {
+      width: 160px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      color: #4b4254;
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+
+    .sub {
+      color: #6d6475;
+      font-size: 15px;
+      margin-bottom: 35px;
+      line-height: 1.6;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 18px;
+      border-radius: 10px;
+      border: 1px solid #e0dce6;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(90deg, #c6a85e, #e6c87a);
+      color: #2d2633;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(198,168,94,0.4);
+    }
+
+    .note {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #8c8395;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <img src="https://drive.google.com/uc?export=view&id=1Stv5-MO1FLganK812qwoE0qJrUYJe07W" class="logo">
+
+    <h1>Private Coaching Application</h1>
+
+    <p class="sub">
+      This is where your transformation begins.<br>
+      Submit your details below. Our team reviews every application carefully and will contact you within 24–48 hours.
+    </p>
+
+    <form action="https://formsubmit.co/YOUR-EMAIL-HERE" method="POST">
+
+      <input type="text" name="Full Name" placeholder="Full Name" required>
+      <input type="email" name="Email" placeholder="Email Address" required>
+      <input type="tel" name="Phone" placeholder="Phone Number" required>
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Gym & Tonic Coaching Application">
+      <input type="hidden" name="_next" value="https://YOURUSERNAME.github.io/gym-tonic-signup/thankyou.html">
+
+      <button type="submit">Begin My Transformation</button>
+
+    </form>
+
+    <div class="note">
+      Limited coaching spots available.
+    </div>
+
+  </div>
+
+</body>
+</html>
